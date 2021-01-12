@@ -9,7 +9,7 @@ h1{
     font-size: 50px;
 }
 
-.name-highlight{
+.orange-highlight{
     color:orange;
 }
 
@@ -56,4 +56,34 @@ section{
     background-image: url("image/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.bottom-banner{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.design-box{
+    box-shadow:10px 30px 40px dimgray;
+    border-radius: 10px;
+    height: 70%;
+    background-color: white;
+}
+
+#professional{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+
+#inter{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan) ;
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    text-size-adjust: 12px;
 }
